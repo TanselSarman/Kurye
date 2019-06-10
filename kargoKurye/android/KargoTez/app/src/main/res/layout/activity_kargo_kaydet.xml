@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kargotez.MainActivity"
+    android:background="@mipmap/arkaplan">
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/edt_gonderen"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Gönderen"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1" />
+
+
+
+
+        <EditText
+            android:textSize="30dp"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1"
+            android:id="@+id/edt_gonderen_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gönderen Telefon"
+             />
+
+
+
+        <EditText
+            android:textSize="30dp"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1"
+            android:id="@+id/edt_alici"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alıcı İsim"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:textSize="30dp"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1"
+            android:id="@+id/edt_alici_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alıcı Telefon"
+            android:inputType="textEmailAddress" />
+
+
+
+
+
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:id="@+id/spinner_alici_adres"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:entries="@array/SEHİRLER"
+            android:outlineAmbientShadowColor="#FD56D1"
+            android:spinnerMode="dropdown"
+            ></Spinner>
+
+
+
+        <Button
+            android:fontFamily="@font/architects_daughter"
+            android:id="@+id/button_kaydet"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="20dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Kaydet"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/arkaplan"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="32dp"
+        android:textColor="#980370"
+        android:textStyle="bold"
+        android:id="@+id/txt_kurye_musteri_mesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#FD56D1"
+        android:id="@+id/txt_musteri_kurye_mesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+    <Button
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="300dp"
+        android:id="@+id/btn_evet"
+        android:text="Evdeyim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/btn_hayir"
+        android:text="Evde Değilim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>

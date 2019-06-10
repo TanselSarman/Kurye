@@ -1,0 +1,24 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyBc1Rvdp_OqzsrQsIaE9HOjIdYxAIarYuY</string>
+
+    <string name="app_name">KargoKurye</string>
+
+    <string-array name="SEHİRLER">
+        <item>KARABUK</item>
+        <item>ANKARA</item>
+        <item>ZONGULDAK</item>
+        <item>KASTAMONU</item>
+
+
+    </string-array>
+
+    <string-array name="DURUM">
+        <item>Kuryede</item>
+        <item>Subede</item>
+        <item>Teslim</item>
+
+
+
+    </string-array>
+    
+</resources>

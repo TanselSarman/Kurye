@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kargotez">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.kargotez.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MusteriGelenKargolarımDetay"></activity>
+        <activity android:name=".MusteriGelenKargolarımListe"></activity>
+        <activity android:name=".KargoIstek"></activity>
+        <activity android:name=".KuryeGelenIsteklerListe"></activity>
+        <activity android:name=".KuryeGelenIsteklerDetay"></activity>
+        <activity android:name=".KuryeIstekMaps"></activity>
+        <activity android:name=".KargoKaydet"></activity>
+
+
+        <service android:name=".KuryeKonumService"></service>
+        <activity android:name="com.example.kargotez.LoginActivity"></activity>
+        <activity android:name="com.example.kargotez.KargoDetayActivity"></activity>
+        <activity android:name="com.example.kargotez.KargoHesaplaActivity"></activity>
+        <activity android:name="com.example.kargotez.KuryeActivity"></activity>
+        <activity android:name="com.example.kargotez.KargoListeActivity"></activity>
+
+        <activity android:name="com.example.kargotez.MusteriActivity"></activity>
+        <activity android:name="com.example.kargotez.ProfileActivity"></activity>
+        <activity android:name="com.example.kargotez.MapsActivity"></activity>
+        <activity android:name="com.example.kargotez.MusteriMapsActivity"></activity>
+        <service android:name=".KuryeBildirimService"></service>
+        <activity android:name=".KuryeMesajActivity"></activity>
+        <activity android:name=".MusteriMesajActivity"></activity>
+        <service android:name=".MusteriBildirimService"></service>
+
+
+        <activity android:name=".KuryeTeslimEdilenKargolarActivity"></activity>
+        <activity android:name=".KargoTeslimDetayActivity"></activity>
+        <activity android:name="com.example.kargotez.KuryeAlınacakKargolarActivity"></activity>
+        <activity android:name="com.example.kargotez.KargoAlınacakDetayActivity"></activity>
+        <activity android:name=".KuryeGelenMesajlarActivity"></activity>
+        <activity android:name=".KuryeGelenMesajlarDetayActivity"></activity>
+        <activity android:name=".MusteriGonderdigimKargolarActivity"></activity>
+        <activity android:name=".MusteriAldigimKargolarActivity"></activity>
+        <activity android:name=".MusteriAldigimKargolarDetay"></activity>
+        <activity android:name=".MusteriGonderdigimKargolarDetay"></activity>
+        <activity android:name=".MusteriGelenMesajlarActivity"></activity>
+
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_API_key" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

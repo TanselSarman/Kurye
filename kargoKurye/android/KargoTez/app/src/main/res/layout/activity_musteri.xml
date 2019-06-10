@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/arkaplan">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+        android:id="@+id/txt_musteri_adi"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="46dp"
+        android:textColor="#FD56D1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/img_hesapla"
+            android:background="@drawable/hesapla"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Kargo Hesapla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="25dp"
+            android:id="@+id/img_messages"
+            android:background="@drawable/messages"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Mesajlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:id="@+id/img_kuryem_nerde"
+            android:background="@drawable/musterigelenkargolar"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Gelen Kargolarım"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/txt_kurye_adi"
+            android:fontFamily="@font/architects_daughter"
+            android:textSize="46dp"
+            android:textColor="#FD56D1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:fontFamily="@font/architects_daughter"
+            android:textSize="46dp"
+            android:textColor="#FD56D1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <ImageView
+            android:id="@+id/gonderdigim_kargolar"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/gidenkargolar"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Gönderdiğim Kargolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/aldigim_kargolar"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/aldigimkargolar"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Aldığım Kargolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/kargo_istek"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/istek"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FD56D1"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:text="Kargo İsteği"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

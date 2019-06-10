@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/arkaplan"
+    >
+
+    <TextView
+        android:id="@+id/txt_kurye_isim"
+        android:fontFamily="@font/architects_daughter"
+        android:textSize="46dp"
+        android:textColor="#06C7A0"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_gidecekler"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/gidecekler"
+
+            />
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/img_teslim"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/teslim"
+            />
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_subede"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/subede"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_mesajlar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/messages"
+
+            />
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/img_konum"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/konum"
+            />
+
+        <ImageView
+            android:layout_marginLeft="25dp"
+            android:id="@+id/img_istekler"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/istek"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

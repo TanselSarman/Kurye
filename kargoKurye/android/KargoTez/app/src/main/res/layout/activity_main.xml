@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kargotez.MainActivity"
+    android:background="@mipmap/arkaplan">
+
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/architects_daughter"
+            android:hint="Kulanıcı adı girin"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1" />
+
+
+
+
+        <EditText
+            android:textSize="30dp"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1"
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parola girin"
+            android:inputType="textPassword" />
+
+
+
+        <EditText
+            android:textSize="30dp"
+            android:fontFamily="@font/architects_daughter"
+            android:textColor="#980370"
+            android:textColorHint="#FD56D1"
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email girin"
+            android:inputType="textEmailAddress" />
+
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:id="@+id/spinner_sehirler"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:entries="@array/SEHİRLER"
+            android:outlineAmbientShadowColor="#FD56D1"
+            android:spinnerMode="dropdown"
+            ></Spinner>
+
+
+
+        <Button
+            android:fontFamily="@font/architects_daughter"
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="20dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Kayıt ol"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+
+            android:id="@+id/button_giris"
+            android:fontFamily="@font/architects_daughter"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="GİRİŞ"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_below="@+id/linearLayout"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
