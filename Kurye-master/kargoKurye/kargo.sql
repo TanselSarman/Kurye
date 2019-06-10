@@ -108,8 +108,8 @@ CREATE TABLE `kullanicilar` (
 --
 
 INSERT INTO `kullanicilar` (`Id`, `adsoy`, `email`, `sifre`, `yetki`) VALUES
-(1, 'Mustafa Sayın', 'mustafa@outlook.com', '1234', 'Admin'),
-(2, 'mustafa sayın', 'mustafa@hotmail.com', '1234', 'Şube Çalış'),
+(1, 'Tansel Şarman', 'tansel@hotmail', '1234', 'Admin'),
+(2, 'tansel şarman', 'tansel1907@hotmail.com', '1234', 'Şube Çalış'),
 (5, 'calisan1', 'calısan@hotmail.com', '1234', 'Sube Çalış');
 
 -- --------------------------------------------------------
