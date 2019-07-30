@@ -3,9 +3,6 @@ package com.example.kargotez;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by Belal on 26/11/16.
- */
 
 public class SharedPrefManager {
 
